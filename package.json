@@ -1,11 +1,16 @@
 {
-  "name": "testezao",
+  "name": "siteExemplo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "\"node_modules\\.bin\\esbuild.CMD\" .\\script.js --outdir=scripts/ --watch --bundle --minify"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.38"
+  }
 }
