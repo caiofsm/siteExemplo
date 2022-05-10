@@ -5,7 +5,6 @@ const container = document.getElementById("main-content");
 const linksMenu = document.querySelectorAll('.menu-list a')
 
 const html = document.querySelector('html');
-// console.log(linksMenu)
 
 linksMenu.forEach(elemento =>
 {
@@ -36,5 +35,3 @@ async function trocarDePagina(pagina, elemento)
 }
 
 carregarPagina('teste.html')
-
-//console.log(container)
